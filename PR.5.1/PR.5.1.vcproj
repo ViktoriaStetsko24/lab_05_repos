@@ -167,6 +167,10 @@
 		</Configuration>
 	</Configurations>
 	<References>
+		<ProjectReference
+			ReferencedProjectIdentifier="{43F2C406-7CD4-4068-8BA7-A05E0C2ECF9D}"
+			RelativePathToProject=".\TestUnit1\TestUnit1.vcproj"
+		/>
 	</References>
 	<Files>
 		<Filter
@@ -174,10 +178,6 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\.gitgnore"
-				>
-			</File>
 			<File
 				RelativePath=".\pr.5.1.cpp"
 				>
